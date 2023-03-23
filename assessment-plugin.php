@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Assessment Plugin
- * Plugin URI: #
+ * Plugin URI: https://github.com/aashimeamandong/Assesment-Plugin#readme
  * Description: An assessment plugin for the role of a Backend dev with Engrain.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Ashime Amandong
  * Author URI: mailto:aashime.amandong@gmail.com
  */
