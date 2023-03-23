@@ -10,16 +10,16 @@ To install the plugin, follow these steps:
 
 ## Usage
 
-# Custom Post Type
+### Custom Post Type
 The plugin registers a custom post type called unit. Each unit post has custom fields for asset_id, building_id, floor_id, floor_plan_id, and area.
 
-# Admin Page
+### Admin Page
 The plugin provides an admin page in the WordPress CMS. The admin page includes a custom button to trigger an API call. When the button is clicked, the plugin consumes the JSON API and creates unit posts from the API data.
 
-# Creating Unit Posts
+### Creating Unit Posts
 To create unit posts, simply trigger the API call from the Assessment Plugin's admin page. The plugin will consume the JSON API and create unit records in your WordPress site, populating the required custom fields for each record. Alternatively, you can add new Units from the Units menu in your WordPress dashboard.
 
-# Shortcode
+### Shortcode
 The plugin provides a shortcode to display a list of the unit posts on the front end of the site. To use the shortcode, add the following code to any page or post:
 
 php
