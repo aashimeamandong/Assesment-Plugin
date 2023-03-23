@@ -22,17 +22,17 @@ To create unit posts, simply trigger the API call from the Assessment Plugin's a
 ### Shortcode
 The plugin provides a shortcode to display a list of the unit posts on the front end of the site. To use the shortcode, add the following code to any page or post:
 
-php
-Copy code
+```php
 [assessment_plugin_unit_list]
+```
 The shortcode displays a reasonably styled list of the unit posts, broken into two sections: units with an area greater than 1 and units with an area of 1.
 
 ## API Information
 The plugin consumes the following JSON API endpoint:
 
-bash
-Copy code
+```php
 https://api.sightmap.com/v1/assets/1273/multifamily/units?per-page=250
+```
 The API requires an API key as a header (API-Key: 7d64ca3869544c469c3e7a586921ba37). The plugin consumes the first 250 units from the API.
 
 ## Credits
